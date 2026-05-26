@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "office-word-mcp-server"
-version = "1.1.10"
+version = "1.1.11"
 description = "MCP server for manipulating Microsoft Word documents"
 readme = "README.md"
 license = {file = "LICENSE"}
@@ -22,6 +22,7 @@ dependencies = [
     "fastmcp>=2.8.1",
     "msoffcrypto-tool>=5.4.2",
     "docx2pdf>=0.1.8",
+    "pytest>=8.4.2",
 ]
 
 [project.urls]
